@@ -1,0 +1,22 @@
+{
+  "name": "fsl-challenge",
+  "version": "1.0.0",
+  "description": "Fullstack Labs QA Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Thiago",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.0.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "esbuild": "^0.15.13"
+  }
+}
